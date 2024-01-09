@@ -1,0 +1,322 @@
+/*  GENERIC CLASS STYLE   */
+
+* {
+    margin: 0;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 27px;
+    margin-top: 7px;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 4px 4px black;
+    transition: 0.4s;
+}
+
+li,
+a:hover {
+    color: yellow;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-shadow: 3px 4px 4px black;
+    height: 0px;
+    margin-left: 250px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+}
+
+
+/*  TOP PAGE STYLE   */
+
+.top-page {
+    font-size: 25px;
+    display: inline-flex;
+    gap: 50px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+#top-title {
+    text-shadow: 3px 4px 4px rgb(36, 16, 89);
+    color: white;
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+.menu {
+    display: inline-flex;
+    padding: 5px;
+    margin-left: 629px;
+}
+
+.description {
+    width: 1399px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*  MIDDLE PAGE STYLE   */
+
+.middle-page {
+    background-image: linear-gradient(to right top, #2e0537, #40125c, #4a2588, #453bb7, #1254eb);
+    border: 5px solid;
+    height: 1400px;
+    margin-top: 0px;
+
+}
+
+
+
+.front-course {
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 200px;
+    border-radius: 100px;
+    width: 1200px;
+    height: 700px;
+    background-image: url(images/full-stack.png);
+    background-size: cover;
+    margin-bottom: 40px;
+    cursor: pointer;
+    float: left;
+    box-shadow: 5px 4px 4px;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.front-course:hover {
+    transform: scale(1.03);
+}
+
+.back-course {
+    margin-right: 50px;
+    border-radius: 100px;
+    width: 1000px;
+    height: 600px;
+    background-image: url(fourth-images/back-end.jpeg);
+    background-size: cover;
+    float: right;
+    margin-bottom: 240px;
+    cursor: pointer;
+    box-shadow: 5px 4px 4px;
+    transition: 0.4s;
+
+}
+
+.back-course:hover {
+    transform: scale(1.03);
+}
+
+.full-course {
+    margin-left: 50px;
+    border-radius: 100px;
+    width: 1000px;
+    height: 600px;
+    background-image: url(fourth-images/full-stack.png);
+    background-size: cover;
+    float: left;
+    cursor: pointer;
+    box-shadow: 5px 4px 4px;
+    transition: 0.4s;
+}
+
+.full-course:hover {
+    transform: scale(1.03);
+}
+
+.front-title {
+    color: yellow;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 300px;
+    text-shadow: 5px 4px 3px black;
+}
+
+.back-title {
+    color: yellow;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 220px;
+    text-shadow: 5px 4px 3px black;
+}
+
+.full-title {
+    color: yellow;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 220px;
+    text-shadow: 5px 4px 3px black;
+}
+
+
+
+/*  BOTTOM PAGE STYLE   */
+
+.footer {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+
+.footer-img {
+    width: 40px;
+    display: inline-flex;
+    position: relative;
+    top: 6px;
+
+
+}
+
+.form-container {
+    background-image: url(fourth-images/4.png);
+    height: 1400px;
+    background-size: cover;
+
+}
+
+.footer-street {
+    font-size: 25px;
+    position: absolute;
+    right: 10px;
+    top: 1490px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+#map-img {
+    float: right;
+    position: absolute;
+    right: -30px;
+    bottom: -5px;
+    width: 60px;
+    height: 60px;
+}
+
+.btn {
+    font-size: 50px;
+    position: absolute;
+    top: 1132px;
+    left: 843px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    background-color: #00000074;
+    color: yellow;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 4px 2px black;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    body,
+    html {
+        overflow-x: hidden;
+        
+    }
+
+    
+
+    h1 {
+        font-size: 30px !important;
+    }
+
+    a {
+        font-size: 22px;
+        margin-left: 10px;
+    }
+
+    #top-title {
+        width: 300px;
+       margin-left: 40px;
+    }
+
+    .top-page{
+       width: 500px !important;
+    }
+
+
+    .middle-page {
+        min-width: 350px;
+        max-height: 950px;
+        max-width: 768px;
+        margin-left: 38px;
+
+    }
+
+    .front-course {
+        max-width: 320px;
+        margin-left: 10px;
+        max-height: 200px;
+    }
+
+    .description {
+
+        margin-left: 0px !important;
+        position: absolute;
+        left: -242px;
+        font-size: 20px;
+        max-width: 330px;
+        top: 320px;
+    }
+
+    .front-title {
+        margin-top: 75px;
+    }
+
+    .btn {
+        font-size: 50px;
+        position: absolute;
+        top: 500px;
+        left: 320px;
+        cursor: pointer;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        border: none;
+        background-color: #00000074;
+        color: yellow;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 5px 4px 2px black;
+        transition: 0.3s;
+        padding: 5px;
+    }
+
+
+    .footer {
+
+        position: absolute;
+        bottom: -75px;
+    }
+
+    .footer-street {
+        display: none;
+    }
+
+    .form-container {
+        max-height: 900px;
+    }
+
+    .footer-img {
+        height: 35px;
+        width: 35px;
+    }
+}
